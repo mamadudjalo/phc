@@ -1,0 +1,50 @@
+o connect to curl trianer unpack file using "tar xvfj ct.tbz"
+
+then run it using "python oddServer.pyo" (tells you port that its running on)
+
+open another terminal
+
+and use comand "curl localhoast:8090"
+
+then "curl localhost:8090/instructions page"
+
+level 1 make request for a page
+
+"curl localhoast:8090/begin.xml"
+
+then use command "curl localhoast:8090"
+
+then look at "curl localhoast:8090/instructions page"
+
+next level is make a post request to /a.a
+
+use command " curl -X POST localhost:8090/a.a"
+
+next level
+
+"curl localhost:8090/data.php/?age=45"
+
+as it is asking for php it has to be given in a differnt format.
+
+next level
+
+asking for a request made in http 1.0
+by seaching documentation you can find command -0
+
+"curl -0 localhoast8090/"
+
+next level
+
+connect saying you are using a differt browser
+curl -A "zombobrowser" localhost:8090
+
+next level
+curl -b "sugar=AucVIAdE" localhost:8090/zip
+
+next level
+
+curl -c cookie.txt -b cookie.txt localhost:8090/zip
+then spam this like 51 times then the task will be compleat.
+
+next level
+thanks
