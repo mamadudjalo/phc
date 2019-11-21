@@ -42,9 +42,20 @@ next level
 curl -b "sugar=AucVIAdE" localhost:8090/zip
 
 next level
-
 curl -c cookie.txt -b cookie.txt localhost:8090/zip
 then spam this like 51 times then the task will be compleat.
+or 
+for x in {1..75}; do curl -c cookie.txt -b cookie.txt localhost:8090/zip; sleep 0.5; done
 
 next level
-thanks
+curl -user joe localhost:8090/whoami.php
+password bloggs
+
+next level
+echo c2Nhcnk6YnVubnk |  base64 --decode
+scary:bunny
+curl -u scary localhost:8090/whoami.php
+passowrd bunny
+
+next level 
+curl --compressed localhost:8090/gzipme
