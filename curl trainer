@@ -1,61 +1,37 @@
-o connect to curl trianer unpack file using "tar xvfj ct.tbz"
+tar xvfj ct.tbz
+python oddServer.pyo
 
-then run it using "python oddServer.pyo" (tells you port that its running on)
 
-open another terminal
+curl localhoast:8090
+curl localhost:8090/instructions
+curl localhost:8090/hint 
 
-and use comand "curl localhoast:8090"
-
-then "curl localhost:8090/instructions page"
-
-level 1 make request for a page
-
-"curl localhoast:8090/begin.xml"
-
-then use command "curl localhoast:8090"
-
-then look at "curl localhoast:8090/instructions page"
-
-next level is make a post request to /a.a
-
-use command " curl -X POST localhost:8090/a.a"
-
-next level
-
-"curl localhost:8090/data.php/?age=45"
-
-as it is asking for php it has to be given in a differnt format.
-
-next level
-
-asking for a request made in http 1.0
-by seaching documentation you can find command -0
-
-"curl -0 localhoast8090/"
-
-next level
-
-connect saying you are using a differt browser
+level1
+curl localhost:8090/begin.xml
+level2
+curl -X POST localhost:8090/a.a
+level3
+curl localhost:8090/data.php/?age=45
+level4
+curl -0 localhost:8090
+level5
 curl -A "zombobrowser" localhost:8090
-
-next level
+level6
 curl -b "sugar=AucVIAdE" localhost:8090/zip
-
-next level
-curl -c cookie.txt -b cookie.txt localhost:8090/zip
-then spam this like 51 times then the task will be compleat.
-or 
-for x in {1..75}; do curl -c cookie.txt -b cookie.txt localhost:8090/zip; sleep 0.5; done
-
-next level
-curl -user joe localhost:8090/whoami.php
+level7
+for i in {1..51}; do  curl -b while.txt -c while.txt localhost:8090/zip;  sleep .2; done
+level8
+curl -u joe localhost:8090/whoami.php
 password bloggs
-
-next level
+level9
 echo c2Nhcnk6YnVubnk |  base64 --decode
 scary:bunny
 curl -u scary localhost:8090/whoami.php
 passowrd bunny
-
-next level 
+level10
 curl --compressed localhost:8090/gzipme
+level11
+
+level12
+
+
