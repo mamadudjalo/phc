@@ -1,1 +1,26 @@
+120ct - Computer Architecture and Networks
 
+
+week 5
+  1.Von Neumann Architecture
+  2.Processor Technology
+  3.Instruction Set Architecture(ISA)
+  
+  
+1
+Von Neumann added in a number of idas that made digital computing pratical and is ideas remain those of most digital programming to this day
+Contemporary computer designs are based on concepts developed by Jonh con Neumann at the Institude for Advanced Studies 
+
+Von Neumann architecture is based on three key concepts:
+  Data and instructions are stored in a singles read-write memory
+  The contents of this memory asre adressable by location, without regard to the type of data contained there
+  Execution occurs in a sequential fashion(unless explicitly modified) from one instrcution to the next
+  
+Cpu
+  The cpu is often known as the brain of the computer
+  Its jobs is to process data which mean things like seraching , sorting , calculating  and decision making 
+
+Arithmetic and Logic Unit(ALU)
+  Performs basic arithmetic operations such as adding
+  Performs logical operatiosn such as True, False, Equal to,Greather than,AND,OR , and NOT
+  
